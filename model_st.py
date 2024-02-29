@@ -4,7 +4,7 @@ import warnings
 from PIL import Image
 
 warnings.filterwarnings("ignore")
-pickle_in = open("model/model_iris.pkl", "rb")
+pickle_in = open("model_iris.pkl", "rb")
 classifier = pickle.load(pickle_in)
 
 
